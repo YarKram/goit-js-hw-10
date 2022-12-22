@@ -14,7 +14,7 @@ function renderCountriesList(countriesData) {
       alt="country-flag"
       style="height: 20px; width: auto; margin-right: 5px"
     />
-    <h2 style="font-weight: bold">${official}.${toLocaleString('ru')}</h2>
+    <h2 style="font-weight: bold">${official}}</h2>
   </li>`;
     })
     .join('');
